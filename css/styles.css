@@ -10097,6 +10097,12 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+background-position: center center !important;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
